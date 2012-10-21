@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/main">
+
+    <ImageButton
+        android:id="@+id/play_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationY="165dp"
+        android:translationX="40dp"
+        android:src="@drawable/playbutton" 
+        android:background="@null" />
+	
+    <ImageButton 
+        android:id="@+id/high_scores_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationY="170dp"
+        android:translationX="40dp"
+        android:src="@drawable/scoresbutton" 
+        android:background="@null" />
+    
+  <!--   <ImageButton 
+        android:id="@+id/options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationY="175dp"
+        android:translationX="40dp"
+        android:src="@drawable/optionsbutton" 
+        android:background="@null" />-->
+    <ImageButton
+        android:id="@+id/about_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationY="270dp"
+        android:translationX="235dp"
+        android:src="@drawable/aboutbutton"
+        android:background="@null" />
+
+
+ </LinearLayout>

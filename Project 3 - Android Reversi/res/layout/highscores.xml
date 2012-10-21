@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/highscoresbg">
+
+        <TextView
+            android:id="@+id/wins1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="@string/easy_wins" 
+            android:translationX="220dp" 
+            android:translationY="91dp" 
+            android:textColor="#89f689" 
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/wins2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#89f689" 
+            android:textStyle="bold"
+            android:translationX="220dp" 
+            android:translationY="162dp"
+            android:text="@string/medium_wins" />
+
+
+        <TextView
+            android:id="@+id/wins3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#89f689" 
+            android:textStyle="bold"
+            android:translationX="220dp" 
+            android:translationY="235dp"
+            android:text="@string/hard_wins" />
+
+        <TextView
+            android:id="@+id/wins4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#89f689" 
+            android:textStyle="bold"
+            android:translationX="220dp" 
+            android:translationY="307dp"
+            android:text="@string/random_wins" />
+        <TextView
+            android:id="@+id/losses1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#f69699" 
+            android:textStyle="bold"
+            android:translationX="220dp" 
+            android:translationY="10dp"
+            android:text="@string/easy_losses" />
+        <TextView
+            android:id="@+id/losses2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#f69699" 
+            android:textStyle="bold"
+            android:translationX="220dp" 
+            android:translationY="80dp"
+            android:text="@string/medium_losses" />
+        <TextView
+            android:id="@+id/losses3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#f69699" 
+            android:textStyle="bold"
+            android:translationX="220dp" 
+            android:translationY="150dp"
+            android:text="@string/hard_losses" />
+        <TextView
+            android:id="@+id/losses4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#f69699" 
+            android:textStyle="bold"
+            android:translationX="220dp" 
+            android:translationY="223dp"
+            android:text="@string/random_losses" />
+        
+
+     <Button
+        android:id="@+id/load_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationY="375dp"
+        android:text="Update Scores" />
+ 
+</LinearLayout>

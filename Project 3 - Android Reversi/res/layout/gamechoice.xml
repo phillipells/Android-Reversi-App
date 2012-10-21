@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/selectbg">
+
+   <!--   <Button
+        android:id="@+id/easy_diff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/easy_choice" android:translationY="155dp"/>
+-->
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:translationX="25dp"
+        android:translationY="55dp">
+
+        <RadioButton
+            android:id="@+id/two_player"
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:checked="true"
+            android:button="@drawable/custom_radio1" 
+            />
+
+        <RadioButton
+            android:id="@+id/easy_mode"
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:translationY="-20dp"
+            android:button="@drawable/custom_radio2" />
+
+        <RadioButton
+            android:id="@+id/medium_mode"
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:translationY="-40dp"
+            android:button="@drawable/custom_radio3" />
+        <RadioButton
+            android:id="@+id/hard_mode"
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:translationY="-60dp"
+            android:button="@drawable/custom_radio4" />
+        <RadioButton
+            android:id="@+id/random_mode"
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:translationY="-80dp"
+            android:button="@drawable/custom_radio5" />
+    </RadioGroup>
+    
+     <ToggleButton
+         android:id="@+id/choose_color"
+         android:layout_width="122dp"
+         android:layout_height="54dp"
+         android:background="@drawable/whiteselect"
+         android:textOff=""
+         android:textOn=""
+         android:translationX="160dp"
+         android:translationY="-15dp" />
+
+    <ImageButton
+        android:id="@+id/start_press"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationY="20dp"
+        android:src="@drawable/testpress" 
+        android:background="@null"/>
+
+</LinearLayout>

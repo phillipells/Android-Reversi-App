@@ -1,0 +1,1710 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MainFrame"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/board"
+    android:gravity="left" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="311dp"
+        android:layout_height="37dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92.5dp" >
+
+        <!-- Button64 -->
+
+        <include
+            android:id="@+id/notelist64w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist64b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button63 -->
+
+        <include
+            android:id="@+id/notelist63w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist63b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button62 -->
+
+        <include
+            android:id="@+id/notelist62w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist62b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button61 -->
+
+        <include
+            android:id="@+id/notelist61w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist61b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button60 -->
+
+        <include
+            android:id="@+id/notelist60w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist60b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button59 -->
+
+        <include
+            android:id="@+id/notelist59w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist59b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button58 -->
+
+        <include
+            android:id="@+id/notelist58w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist58b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button57 -->
+
+        <include
+            android:id="@+id/notelist57w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist57b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <ImageButton
+            android:id="@+id/Button64"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-312.5dp" />
+
+        <ImageButton
+            android:id="@+id/Button63"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-1dp" />
+
+        <ImageButton
+            android:id="@+id/Button62"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+        <!-- android:background="@drawable/blackpiece2" -->
+
+        <ImageButton
+            android:id="@+id/Button61"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button60"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button59"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button58"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button57"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="311dp"
+        android:layout_height="37dp"
+        android:layout_alignLeft="@+id/LinearLayout1"
+        android:layout_below="@+id/LinearLayout1"
+        android:layout_marginTop="1.4dp"
+        android:orientation="horizontal" >
+
+        <!-- Button48 -->
+
+        <include
+            android:id="@+id/notelist56w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist56b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button47 -->
+
+        <include
+            android:id="@+id/notelist55w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist55b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button46 -->
+
+        <include
+            android:id="@+id/notelist54w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist54b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button45 -->
+
+        <include
+            android:id="@+id/notelist53w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist53b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button44 -->
+
+        <include
+            android:id="@+id/notelist52w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist52b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button43 -->
+
+        <include
+            android:id="@+id/notelist51w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist51b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button42 -->
+
+        <include
+            android:id="@+id/notelist50w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist50b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button41 -->
+
+        <include
+            android:id="@+id/notelist49w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist49b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <ImageButton
+            android:id="@+id/Button56"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-312.5dp" />
+
+        <ImageButton
+            android:id="@+id/Button55"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-1dp" />
+
+        <ImageButton
+            android:id="@+id/Button54"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button53"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button52"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button51"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button50"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button49"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout3"
+        android:layout_width="311dp"
+        android:layout_height="37dp"
+        android:layout_alignLeft="@+id/LinearLayout2"
+        android:layout_below="@+id/LinearLayout2"
+        android:layout_marginTop="1.4dp"
+        android:orientation="horizontal" >
+
+        <!-- Button48 -->
+
+        <include
+            android:id="@+id/notelist48w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist48b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button47 -->
+
+        <include
+            android:id="@+id/notelist47w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist47b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button46 -->
+
+        <include
+            android:id="@+id/notelist46w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist46b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button45 -->
+
+        <include
+            android:id="@+id/notelist45w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist45b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button44 -->
+
+        <include
+            android:id="@+id/notelist44w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist44b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button43 -->
+
+        <include
+            android:id="@+id/notelist43w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist43b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button42 -->
+
+        <include
+            android:id="@+id/notelist42w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist42b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button41 -->
+
+        <include
+            android:id="@+id/notelist41w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist41b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <ImageButton
+            android:id="@+id/Button48"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-312.5dp" />
+
+        <ImageButton
+            android:id="@+id/Button47"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-1dp" />
+
+        <ImageButton
+            android:id="@+id/Button46"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button45"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button44"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button43"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button42"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button41"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout4"
+        android:layout_width="311dp"
+        android:layout_height="37dp"
+        android:layout_alignLeft="@+id/LinearLayout3"
+        android:layout_below="@+id/LinearLayout3"
+        android:layout_marginTop="1.4dp"
+        android:orientation="horizontal" >
+
+        <!-- Button48 -->
+
+        <include
+            android:id="@+id/notelist40w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist40b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button47 -->
+
+        <include
+            android:id="@+id/notelist39w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist39b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button46 -->
+
+        <include
+            android:id="@+id/notelist38w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist38b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button45 -->
+
+        <include
+            android:id="@+id/notelist37w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist37b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button44 -->
+
+        <include
+            android:id="@+id/notelist36w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist36b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button43 -->
+
+        <include
+            android:id="@+id/notelist35w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist35b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button42 -->
+
+        <include
+            android:id="@+id/notelist34w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist34b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button41 -->
+
+        <include
+            android:id="@+id/notelist33w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist33b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <ImageButton
+            android:id="@+id/Button40"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-312.5dp" />
+
+        <ImageButton
+            android:id="@+id/Button39"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-1dp" />
+
+        <ImageButton
+            android:id="@+id/Button38"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button37"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button36"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button35"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button34"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button33"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout5"
+        android:layout_width="311dp"
+        android:layout_height="37dp"
+        android:layout_alignLeft="@+id/LinearLayout4"
+        android:layout_below="@+id/LinearLayout4"
+        android:layout_marginTop="1.4dp"
+        android:orientation="horizontal" >
+
+        <!-- Button48 -->
+
+        <include
+            android:id="@+id/notelist32w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist32b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button47 -->
+
+        <include
+            android:id="@+id/notelist31w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist31b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button46 -->
+
+        <include
+            android:id="@+id/notelist30w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist30b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button45 -->
+
+        <include
+            android:id="@+id/notelist29w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist29b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button44 -->
+
+        <include
+            android:id="@+id/notelist28w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist28b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button43 -->
+
+        <include
+            android:id="@+id/notelist27w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist27b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button42 -->
+
+        <include
+            android:id="@+id/notelist26w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist26b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button41 -->
+
+        <include
+            android:id="@+id/notelist25w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist25b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <ImageButton
+            android:id="@+id/Button32"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-312.5dp" />
+
+        <ImageButton
+            android:id="@+id/Button31"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-1dp" />
+
+        <ImageButton
+            android:id="@+id/Button30"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button29"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button28"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button27"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button26"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button25"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout6"
+        android:layout_width="311dp"
+        android:layout_height="37dp"
+        android:layout_alignLeft="@+id/LinearLayout5"
+        android:layout_below="@+id/LinearLayout5"
+        android:layout_marginTop="1.4dp"
+        android:orientation="horizontal" >
+
+        <!-- Button48 -->
+
+        <include
+            android:id="@+id/notelist24w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist24b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button47 -->
+
+        <include
+            android:id="@+id/notelist23w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist23b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button46 -->
+
+        <include
+            android:id="@+id/notelist22w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist22b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button45 -->
+
+        <include
+            android:id="@+id/notelist21w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist21b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button44 -->
+
+        <include
+            android:id="@+id/notelist20w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist20b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button43 -->
+
+        <include
+            android:id="@+id/notelist19w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist19b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button42 -->
+
+        <include
+            android:id="@+id/notelist18w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist18b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button41 -->
+
+        <include
+            android:id="@+id/notelist17w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist17b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <ImageButton
+            android:id="@+id/Button24"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-312.5dp" />
+
+        <ImageButton
+            android:id="@+id/Button23"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-1dp" />
+
+        <ImageButton
+            android:id="@+id/Button22"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button21"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button20"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button19"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button18"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button17"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout7"
+        android:layout_width="311dp"
+        android:layout_height="37dp"
+        android:layout_alignLeft="@+id/LinearLayout6"
+        android:layout_below="@+id/LinearLayout6"
+        android:layout_marginTop="1.4dp"
+        android:orientation="horizontal" >
+
+        <!-- Button48 -->
+
+        <include
+            android:id="@+id/notelist16w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist16b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button47 -->
+
+        <include
+            android:id="@+id/notelist15w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist15b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button46 -->
+
+        <include
+            android:id="@+id/notelist14w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist14b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button45 -->
+
+        <include
+            android:id="@+id/notelist13w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist13b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button44 -->
+
+        <include
+            android:id="@+id/notelist12w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist12b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button43 -->
+
+        <include
+            android:id="@+id/notelist11w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist11b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button42 -->
+
+        <include
+            android:id="@+id/notelist10w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist10b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button41 -->
+
+        <include
+            android:id="@+id/notelist09w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist09b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <ImageButton
+            android:id="@+id/Button16"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-312.5dp" />
+
+        <ImageButton
+            android:id="@+id/Button15"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-1dp" />
+
+        <ImageButton
+            android:id="@+id/Button14"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button13"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button12"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button11"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button10"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button09"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout8"
+        android:layout_width="311dp"
+        android:layout_height="37dp"
+        android:layout_alignLeft="@+id/LinearLayout7"
+        android:layout_below="@+id/LinearLayout7"
+        android:layout_marginTop="1.4dp"
+        android:orientation="horizontal" >
+
+        <!-- Button48 -->
+
+        <include
+            android:id="@+id/notelist08w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist08b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button47 -->
+
+        <include
+            android:id="@+id/notelist07w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist07b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button46 -->
+
+        <include
+            android:id="@+id/notelist06w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist06b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button45 -->
+
+        <include
+            android:id="@+id/notelist05w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist05b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button44 -->
+
+        <include
+            android:id="@+id/notelist04w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist04b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button43 -->
+
+        <include
+            android:id="@+id/notelist03w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist03b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button42 -->
+
+        <include
+            android:id="@+id/notelist02w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist02b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <!-- Button41 -->
+
+        <include
+            android:id="@+id/notelist01w"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp"
+            layout="@layout/whitepiece" />
+
+        <include
+            android:id="@+id/notelist01b"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40.5dp"
+            layout="@layout/blackpiece" />
+
+        <ImageButton
+            android:id="@+id/Button08"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-312.5dp" />
+
+        <ImageButton
+            android:id="@+id/Button07"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-1dp" />
+
+        <ImageButton
+            android:id="@+id/Button06"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button05"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button04"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button03"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button02"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+
+        <ImageButton
+            android:id="@+id/Button01"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-2dp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/undo"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignRight="@+id/LinearLayout8"
+        android:layout_below="@+id/LinearLayout8"
+        android:layout_marginTop="19dp"
+        android:src="@drawable/undo_button"
+        android:background="@null" />
+
+    <ImageButton
+        android:id="@+id/redo"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignRight="@+id/undo"
+        android:layout_below="@+id/undo"
+        android:layout_marginTop="1dp"
+        android:src="@drawable/redo_button"
+        android:background="@null" />
+
+    <ImageButton
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/main_menu_button" 
+        android:background="@null"/>
+
+    <ImageButton
+        android:id="@+id/newGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/menu"
+        android:layout_below="@+id/menu"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/new_game_button"
+        android:background="@null" />
+
+    <TextView
+        android:id="@+id/whiteScore"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="34.5dp"
+        android:text="White Score"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+    
+    <TextView
+        android:id="@+id/blackScore"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_alignRight="@+id/whiteScore"
+        android:layout_below="@+id/whiteScore"
+        android:layout_marginTop="0dp"
+        android:text="Black Score"
+        android:textColor="#000000"
+        android:textSize="18dp" />
+
+    <TextSwitcher
+        android:id="@+id/infoTextSwitcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/undo"
+        android:layout_alignLeft="@+id/LinearLayout8"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:animateFirstView="true"
+        android:text="Black&apos;s Turn..."
+        android:textColor="#ffffff" >
+
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge" android:shadowRadius="1.5" android:shadowColor="#800000" android:shadowDx="1" android:shadowDy="1"/>
+
+    </TextSwitcher>
+    <ProgressBar android:id="@+id/aiThinking" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleSmall" android:layout_alignTop="@+id/infoTextSwitcher" android:layout_toRightOf="@+id/infoTextSwitcher" android:layout_marginLeft="10dp" android:layout_marginTop="5dp"/>
+
+</RelativeLayout>

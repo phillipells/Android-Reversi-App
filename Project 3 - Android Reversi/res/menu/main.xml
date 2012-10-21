@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@string/menu_undo" android:title="@string/menu_undo"></item><item android:id="@string/menu_redo" android:title="@string/menu_redo"></item><item android:id="@string/menu_about" android:title="@string/menu_about"></item>
+    <item android:id="@string/menu_exit" android:title="@string/menu_exit"></item>
+    
+    
+    
+
+</menu>

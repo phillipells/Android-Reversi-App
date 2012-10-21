@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="menu">Welcome to the Main Menu</string>
+    <string name="app_name">Reversi</string>
+    <string name="menu_name">Main Menu</string>
+    <string name="start_game">Play</string>
+    <string name="current_player">Player 1 Turn</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_about">About</string>
+    <string name="menu_undo">Undo</string>
+    <string name="menu_redo">Redo</string>
+    <string name="scores">High Scores</string>
+    <string name="aboutButton">About</string>
+    <string name="exitButton">Exit</string>
+    <string name="legal_stuff">Copyright of something or other</string>
+    <string name="you_choose_color">Choose your color by clicking the button: </string>
+    <string name="easy_choice">Easy</string>
+    <string name="choose_diff">Choose Difficulty</string>
+    <string name="hs1">Easy Wins:</string>
+    <string name="hs2">Medium Wins:</string>
+    <string name="hs3">Hard Wins:</string>
+    <string name="hs4">Random Wins:</string>
+    <string name="easy_wins"> 0</string>
+    <string name="medium_wins"> 0</string>
+    <string name="hard_wins"> 0</string>
+    <string name="random_wins"> 0</string>
+    <string name="high_scores">high scores</string>
+    <string name="about_text">This is the about page. It\'s about stuff!</string>
+    <string name="about_stuff">About Page</string>
+    <string name="easy_losses"> 0</string>
+    <string name="medium_losses"> 0</string>
+    <string name="hard_losses"> 0</string>
+    <string name="random_losses"> 0</string>
+
+</resources>
